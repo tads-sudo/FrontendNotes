@@ -3,11 +3,11 @@
 If your Markdown file (example.md) and image (image.jpg) are in the same directory, you would use:
 
 ```markdown
-![Alt text](image.jpg)
+![Alt text](image.jpg "Image tooltip here")
 ```
 
 and if your image is hosted online, you can use the URL:
 
 ```markdown
-![Alt text](https://example.com/image.jpg)
+![Alt text](https://example.com/image.jpg "Image tooltip here")
 ```
