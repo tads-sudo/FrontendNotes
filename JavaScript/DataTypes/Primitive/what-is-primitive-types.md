@@ -13,3 +13,5 @@ Primitive types represent single values and have immutable characteristics. In J
 - **Null**: Represents the absence of a value or a non-existent value.
 
 - **Symbol**: (introduced in ECMAScript 6): Represents a unique and immutable value used to identify object properties.
+
+When you assign a primitive value to a variable, the variable holds a copy of the value.
