@@ -96,9 +96,20 @@
        ```
 
      - **`Create a tsconfig.json file`**:
+
        ```
        npx tsc --init
        ```
+
+     - **`Update package.json scripts`**:
+
+       ```
+        "scripts": {
+        "tsc": "tsc"
+        }
+       ```
+
+       To use TypeScript compiler "npm run tsc index.ts"
 
   4. **`Make Your Initial Commit`**:
 
